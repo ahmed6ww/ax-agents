@@ -3,18 +3,18 @@
     "name": "rust-architect",
     "version": "1.0.0",
     "description": "Senior Rust Systems Engineer optimized for Tokio & zero-cost abstractions",
-    "author": "agenza-labs"
+    "author": "ahmed6ww"
   },
   {
     "name": "fullstack-next",
     "version": "1.0.0",
     "description": "Next.js 15 + FastAPI + ShadcnUI full-stack expert",
-    "author": "agenza-labs"
+    "author": "ahmed6ww"
   },
   {
     "name": "qa-testing-squad",
     "version": "1.0.0",
     "description": "Playwright + Jest testing configuration specialist",
-    "author": "agenza-labs"
+    "author": "ahmed6ww"
   }
 ]

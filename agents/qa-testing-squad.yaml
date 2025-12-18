@@ -1,7 +1,7 @@
 name: "qa-testing-squad"
 version: "1.0.0"
 description: "Playwright + Jest testing configuration specialist"
-author: "agenza-labs"
+author: "ahmed6ww"
 
 identity:
   model: "claude-3-5-sonnet-latest"
