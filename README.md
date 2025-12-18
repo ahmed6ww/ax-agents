@@ -1,6 +1,6 @@
-# APM Agent Registry
+# AX Agent Registry
 
-The official registry of agents for [APM (Agent Package Manager)](https://github.com/ahmed6ww/ax).
+The official registry of agents for [AX (Agent Package Manager)](https://github.com/ahmed6ww/ax).
 
 ## Available Agents
 
@@ -13,11 +13,11 @@ The official registry of agents for [APM (Agent Package Manager)](https://github
 ## Usage
 
 ```bash
-# Install APM first
+# Install AX first
 curl -fsSL https://raw.githubusercontent.com/ahmed6ww/ax/main/install.sh | bash
 
 # Install an agent
-apm install rust-architect
+ax install rust-architect
 ```
 
 ## Contributing

@@ -1,6 +1,6 @@
-# Contributing Agents to APM Registry
+# Contributing Agents to AX Registry
 
-Thank you for your interest in contributing an agent to APM! 🎉
+Thank you for your interest in contributing an agent to AX! 🎉
 
 ## How to Submit an Agent
 
