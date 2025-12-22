@@ -37,6 +37,7 @@ mcp:  # Optional - MCP tool integrations
     args: ["arg1", "arg2"]
     env:
       ENV_VAR: "value"
+    setup_url: "https://example.com/api-key" # Optional - Link to get API key
 ```
 
 ### 3. Update registry.json
