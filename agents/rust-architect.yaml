@@ -83,11 +83,6 @@ skills:
       ```
 
 mcp:
-  - name: "cargo"
-    command: "cargo"
-    args: []
-    env:
-      RUST_BACKTRACE: "1"
   - name: "context7"
     command: "npx"
     args: ["-y", "@upstash/context7-mcp"]

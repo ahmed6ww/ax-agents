@@ -68,10 +68,6 @@ skills:
       ```
 
 mcp:
-  - name: "npx"
-    command: "npx"
-    args: ["playwright", "test"]
-    env: {}
   - name: "context7"
     command: "npx"
     args: ["-y", "@upstash/context7-mcp"]
