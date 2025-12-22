@@ -72,3 +72,9 @@ mcp:
     command: "npx"
     args: ["playwright", "test"]
     env: {}
+  - name: "context7"
+    command: "npx"
+    args: ["-y", "@upstash/context7-mcp"]
+    env:
+      CONTEXT7_API_KEY: "${CONTEXT7_API_KEY}"
+    setup_url: "https://context7.com/dashboard"
