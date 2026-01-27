@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "organization": "Community / zhanymkanov",
+  "date": "January 2026",
+  "abstract": "Opinionated list of best practices and conventions for FastAPI, adapted for AI agents. Covers patterns for scalability, performance, and developer experience based on real-world production systems. Key areas include async I/O handling, domain-driven structure, Pydantic validation, and advanced dependency injection.",
+  "references": [
+    "https://github.com/zhanymkanov/fastapi-best-practices",
+    "https://fastapi.tiangolo.com",
+    "https://github.com/Kludex/fastapi-tips",
+    "https://github.com/Netflix/dispatch"
+  ]
+}
