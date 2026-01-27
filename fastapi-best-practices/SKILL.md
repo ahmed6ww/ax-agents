@@ -32,6 +32,9 @@ Reference these guidelines when:
 | 5 | Database & Storage | MEDIUM | `db-` |
 | 6 | REST & API Design | MEDIUM | `api-` |
 | 7 | Testing & Tooling | LOW-MEDIUM | `tooling-` |
+| 8 | Code Maintenance | LOW | `maintenance-` |
+| 9 | Performance Optimization | MEDIUM | `performance-` |
+| 10 | TDD Strategy | HIGH | `tdd-` |
 
 ## Quick Reference
 
@@ -70,6 +73,11 @@ Reference these guidelines when:
 ### 7. Testing & Tooling (LOW-MEDIUM)
 - `tooling-test-client` - Use AsyncClient/httpx for tests
 - `tooling-linter` - Use Ruff for all linting
+
+### 8. New Capabilities (Merged)
+- **Scripts**: Helper scripts available in `scripts/` (e.g., `run_ruff.py`).
+- **References**: Additional guides in `references/` (e.g., `quad_strategy.md`).
+- **TDD**: Explicit testing strategies in `rules/tdd-strategy.md`.
 
 ## How to Use
 

@@ -6,9 +6,11 @@ This document provides a comprehensive list of best practices for building produ
 
 - [Async & Concurrency](#async--concurrency)
 - [Project Structure](#project-structure)
+- [Code Maintenance](#code-maintenance)
 - [Pydantic Patterns](#pydantic-patterns)
 - [Dependency Injection](#dependency-injection)
 - [Database & Storage](#database--storage)
+- [Performance Optimization](#performance-optimization)
 - [REST & API Design](#rest--api-design)
 - [Testing & Tooling](#testing--tooling)
 
@@ -62,6 +64,22 @@ src/
 ├── posts/
 └── main.py
 ```
+
+## Code Maintenance
+
+### Dead Code Elimination
+
+Analyze the AST to find unused endpoints or "Zombie Code" (commented out blocks). Delete them immediately; do not just comment them out.
+
+### Pydantic V2 Standards
+
+Ensure all models follow Pydantic V2 syntax:
+- Use `model_config = ConfigDict(...)`.
+- Use `@field_validator`.
+
+### Automated Sanitation
+
+Run automated scripts (like Ruff) to handle imports and whitespace.
 
 ## Pydantic Patterns
 
@@ -117,6 +135,16 @@ Prefer writing optimized SQL for complex data retrieval over Python-side process
 
 Migrations must be static, reversible, and use descriptive names.
 
+## Performance Optimization
+
+### Database Connection Pooling
+
+Ensure connection pooling is enabled in SQLAlchemy (e.g., `pool_size=20`, `max_overflow=10`).
+
+### Garbage Collection Tuning
+
+For high-throughput apps, tune Python's GC thresholds (`gc.set_threshold`) and freeze startup objects (`gc.freeze()`) to reduce latency spikes.
+
 ## REST & API Design
 
 ### Consistent API Path Naming
@@ -144,3 +172,11 @@ Use `httpx.AsyncClient` for integration tests with `async` routes.
 ### Use Ruff
 
 Use `ruff` for all linting and formatting.
+
+### TDD Strategy: The Quads
+
+Apply specific testing strategies by layer:
+- **Quad 1 (Unit):** Logic in isolation.
+- **Quad 2 (Integration):** External systems (DB, API).
+- **Quad 3 (Component):** API endpoints.
+- **Quad 4 (E2E):** Full flows.
