@@ -16,5 +16,11 @@
     "version": "1.0.0",
     "description": "Playwright + Jest testing configuration specialist",
     "author": "ahmed6ww"
+  },
+  {
+    "name": "postgresql-best-practices",
+    "version": "1.0.0",
+    "description": "OpenAI source-faithful PostgreSQL scaling playbook (Jan 22, 2026)",
+    "author": "ahmed6ww"
   }
 ]

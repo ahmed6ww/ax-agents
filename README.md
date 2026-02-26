@@ -23,6 +23,7 @@ These agents are built on the **Agent Skill Standard**, offering rich, multi-fil
 | 🏗️ [fastapi-code-structure](fastapi-code-structure/) | 2.0.0 | Enforce enterprise-grade project structure (Dispatch style), dependency injection patterns, and async concurrency rules. |
 | 🧪 [fastapi-tdd](fastapi-tdd/) | 1.0.0 | Expert guide for Test-Driven Development in FastAPI, focusing on the "Quads" strategy and async testing patterns. |
 | ⚛️ [nextjs-code-structure](nextjs-code-structure/) | 1.0.0 | Architect scalable Next.js applications using Feature-Sliced Design and Server Component patterns. |
+| 🐘 [postgresql-best-practices](postgresql-best-practices/) | 1.0.0 | OpenAI source-faithful PostgreSQL scaling playbook based on "Scaling PostgreSQL to the next level" (Jan 22, 2026). |
 
 ## 🤝 How to Contribute
 
